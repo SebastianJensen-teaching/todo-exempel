@@ -10,7 +10,7 @@ listForm.addEventListener("submit", (e) => {
   if (listInput.value.trim() === "") {
     return;
   }
-  todos.push(listInput.value);
+  todos.push(listInput.value.trim());
   updateList();
   listInput.value = "";
 });
