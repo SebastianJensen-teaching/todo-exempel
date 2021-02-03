@@ -1,4 +1,4 @@
-"using strict"; //använd modern javascript
+"use strict"; //använd modern javascript
 
 let todos = ["Köp kattmat", "Töm kattlådan", "Klappa katten"];
 let listRoot = document.querySelector("#list-root");

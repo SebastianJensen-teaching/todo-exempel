@@ -1,4 +1,4 @@
-"using strict"; //använd modern javascript
+"use strict"; //använd modern javascript
 
 const LOCAL_STORAGE_KEY_TODOS = "app.todos.advanced";
 
